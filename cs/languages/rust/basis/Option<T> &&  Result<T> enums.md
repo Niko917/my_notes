@@ -2,8 +2,7 @@
 ## [Option< T >](https://doc.rust-lang.org/std/option/index.html)
 
 
-
-каждый параметр $Option<T>$ является либо $Some(T)$ и содержит значение, либо является $None$ и не содержит его
+каждый параметр Option<> является либо Some(T) и содержит значение, либо является $None$ и не содержит его
 
 ```Rust
 enum Option<T> {
@@ -15,7 +14,7 @@ enum Option<T> {
 
 ### cases:
 
-***1.***  pattern matching ^8c8e1b
+***1.***  pattern matching
 
 ```Rust
 fn divide(numerator: f64, denominator: f64) -> Option<f64> {
@@ -44,11 +43,11 @@ match result {
 так как в языке Rust из-за контроля безопасности не существует null-pointers => указатель в Rust всегда должен указывать на действительную область памяти.
 
 Несмотря на это, в языке Rust есть <mark style="background: #FF5582A6;">optional pointer</mark> . 
-Это обёртка умного указателя $Box<T>$ в Option. 
+Это обёртка умного указателя Box<> в Option. 
 
-Таким образом $Optional<Box<T>>$ является комбинацией 2-х типов: 
-- $Optional<T>$
-- $Box<T>$ 
+Таким образом Optional<Box<>> является комбинацией 2-х типов: 
+- Optional<>
+- Box<> 
 
 
 ```Rust
@@ -68,7 +67,7 @@ fn check_optional(optional: Option<Box<i32>>) {
 
 Это позволяет указать, что объект, который мы обернули в Option может быть не действителен.
 
-также перед обращением и использованием типа $T$, на который указывает $Box<T>$, необходимо проверить его валидность с помощью pattern matching.
+также перед обращением и использованием типа $T$, на который указывает Box<>, необходимо проверить его валидность с помощью pattern matching.
 
 ```Rust
 
@@ -92,7 +91,7 @@ fn main() {
 ```
 
 
-к тому же тип $Option<T>$ позволяет использовать множество [полезных  методов](https://doc.rust-lang.org/std/option/enum.Option.html#variants).
+к тому же тип Option<> позволяет использовать множество [полезных  методов](https://doc.rust-lang.org/std/option/enum.Option.html#variants).
 
 ---
 
@@ -105,7 +104,8 @@ fn main() {
 
 ? - оператор для [[match && pattern matching]] при работе с перечислениями Result и Option
 
-Рассмотрим пример
+Рассмотрим пример:
+
 ```Rust
 fn add_last_numbers(stack: &mut Vec<i32>) -> Option<i32> {
     let a = stack.pop();

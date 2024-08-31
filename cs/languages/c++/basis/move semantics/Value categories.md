@@ -11,11 +11,11 @@
 
 Любое выражение определённо принадлежит к одной из трёх основных категорий, которые являются подмножествами более общий категорий `gvalue` и `rvalue`.
 
-![[Untitled Diagram.svg]]
+![Value categories](pics/Diagram.svg)
 
-![[content/Diagram.svg]]
 
-![[lvalues-rvalues.png]]
+
+![lvalues-rvalues](pics/lvalues-rvalues.png)
 
 ---
 ### prvalue (pure rvalue)
@@ -168,11 +168,6 @@ foo f; // lvalue
 std::move(f).a; // xvalue
 foo{}.a; // xvalue
 ```
----
-
-
-## Reference qualifiers
-
 
 ---
 ## Reference collapsing
