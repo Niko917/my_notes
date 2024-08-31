@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/Compiler fundamentals/phases/Semantic analysis.md",
+                "file": "cs/CompArch/Virtual memory (VM).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/Compiler fundamentals/phases/Semantic analysis.md",
+                "file": "cs/CompArch/Virtual memory (VM).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/Compiler fundamentals/phases/Semantic analysis.md",
+                "file": "cs/CompArch/Virtual memory (VM).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/Compiler fundamentals/phases/Semantic analysis.md"
+                "file": "cs/CompArch/Virtual memory (VM).md"
               }
             }
           }
@@ -163,6 +163,7 @@
   },
   "active": "0062b08dc8adee37",
   "lastOpenFiles": [
+    "cs/Compiler fundamentals/phases/Semantic analysis.md",
     "cs/Compiler fundamentals/phases/Preprocessing.md",
     "cs/Compiler fundamentals/phases/Lexical Analysis.md",
     "cs/Compiler fundamentals/phases/compilation pipeline.md",
@@ -198,7 +199,6 @@
     "cs/languages/rust/basis/lifetimes.md",
     "cs/languages/rust/basis/Error handling.md",
     "cs/languages/rust/basis/Crates && Packages.md",
-    "cs/languages/rust/basis/Copy && Clone.md",
     "cs/CompArch/OS/kernel",
     "cs/languages/c++/basis/move semantics/value-category-cheatsheet.pdf",
     "cs/Compiler fundamentals",

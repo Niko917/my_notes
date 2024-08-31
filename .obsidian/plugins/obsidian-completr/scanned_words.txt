@@ -469,6 +469,9 @@ previous
 partial
 project
 protected
+png
+pics
+pte
 height
 hd
 hii
@@ -489,6 +492,7 @@ hM
 hO
 how
 heap
+hierarchy
 content
 ck
 cache
@@ -701,6 +705,7 @@ runtime
 rc
 references
 rank
+ram
 id
 ih
 iS
@@ -1011,6 +1016,7 @@ use
 upgraded
 undefined
 unwrap
+using
 MMU
 MB
 MSK
