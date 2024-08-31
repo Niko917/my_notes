@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5c8301acf954ecab",
+        "id": "7f1e1a1d00df382f",
         "type": "tabs",
         "children": [
           {
-            "id": "36776bb4c5740053",
+            "id": "0da12cde05ab6033",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cs/CompArch/Virtual memory (VM).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26237a9f186037a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cs/CompArch/OS/Linux virtual memory system.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/CompArch/OS/Linux virtual memory system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/CompArch/OS/Linux virtual memory system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "cs/CompArch/OS/Linux virtual memory system.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -161,58 +140,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "floating": {
-    "id": "9019638ae6045920",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8ddcfe1aec25db45",
-        "type": "window",
-        "children": [
-          {
-            "id": "612955da70e4abad",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ca50632787889a44",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "cs/CompArch/OS/Linux virtual memory system.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 171,
-        "y": 32,
-        "width": 1024,
-        "height": 735,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
   "active": "903a23464550a9ee",
   "lastOpenFiles": [
-    "pics/page fault linux.png",
     "cs/CompArch/Virtual memory (VM).md",
     "cs/CompArch/OS/Linux virtual memory system.md",
+    "cs/CompArch/How transistors run code?.md",
+    "pics/fork_system_call.png",
+    "pics/copy-on-write.png",
+    "pics/shared object.png",
+    "pics/page tables.png",
+    "Excalidraw/Drawing 2024-08-31 03.48.00.excalidraw.md",
+    "Excalidraw",
+    "pics/pte layout.png",
+    "pics/page fault linux.png",
     "pics/vm_segment_structs list.png",
     "pics/PTE 1.png",
     "pics/Virtual adress translation 1.png",
     "pics/using ram as cache 1.png",
-    "pics/page table 1.png",
-    "pics/adress translation 1.png",
-    "pics/VPN layout 1.png",
-    "VPN layout 1.png",
-    "pics/TLB adress translation 1.png",
-    "pics/page tables hierarchy 1 1.png",
     "deepsvg/Miniconda3-latest-Linux-x86_64.sh",
     "deepsvg/requirements.txt",
     "deepsvg/pretrained/download.sh",
@@ -222,7 +166,6 @@
     "deepsvg/notebooks/latent_ops.ipynb",
     "deepsvg/notebooks/interpolation.ipynb",
     "deepsvg/notebooks/fonts.ipynb",
-    "deepsvg/notebooks/animation.ipynb",
     "deepsvg/notebooks/README.md",
     "deepsvg/docs/index.md",
     "deepsvg/deepsvg/gui/README.md",

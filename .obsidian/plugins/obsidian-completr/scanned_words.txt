@@ -24,6 +24,7 @@ virtual
 victim
 vm
 vr
+vault
 encoding
 eT
 eeU
@@ -42,6 +43,7 @@ eW
 er
 eJ
 exception
+excalidraw
 UTF
 Unallocated
 Uncached
@@ -78,6 +80,7 @@ UKB
 UPP
 UAAUA
 UKl
+Unix
 DOCTYPE
 DTD
 DRAM
@@ -113,6 +116,8 @@ DqH
 DQD
 Dlc
 DQLl
+Drawing
+Decompress
 svg
 spaces
 sBIT
@@ -128,6 +133,8 @@ segfault
 segment
 struct
 segmentation
+settings
+shared
 PUBLIC
 Paging
 PPs
@@ -170,6 +177,8 @@ PPEUI
 PPe
 Pe
 Process
+PFN
+Private
 SVG
 SG
 St
@@ -181,6 +190,11 @@ SKm
 SN
 SiD
 Sgb
+Switch
+Saving
+Segmentation
+SIGSEGV
+Shared
 EN
 Eb
 EDD
@@ -211,6 +225,8 @@ EEQ
 EJ
 ET
 EQD
+EXCALIDRAW
+Excalidraw
 width
 wX
 ww
@@ -224,6 +240,7 @@ wp
 ws
 wlf
 wP
+with
 px
 parent
 pages
@@ -232,6 +249,10 @@ paging
 physical
 pP
 protection
+plugin
+parsed
+palette
+private
 height
 hd
 hii
@@ -243,6 +264,7 @@ hjh
 hnm
 ht
 handling
+handler
 content
 ck
 cache
@@ -258,6 +280,12 @@ cH
 cpd
 cK
 cE
+cs
+can
+command
+current
+check
+copy
 lt
 lWQ
 lines
@@ -274,6 +302,7 @@ lm
 ll
 lg
 lAm
+libraries
 mxGraphModel
 mxCell
 memory
@@ -290,6 +319,9 @@ mD
 mo
 mDd
 mDlc
+my
+menu
+more
 gt
 gnome
 gJ
@@ -313,6 +345,7 @@ rd
 ru
 rE
 ry
+read
 id
 ih
 iS
@@ -321,6 +354,8 @@ iik
 iRuM
 ifL
 iD
+in
+info
 quot
 qvBtt
 qs
@@ -356,6 +391,7 @@ VI
 Va
 Vdx
 VN
+VIEW
 RAM
 RRR
 Recently
@@ -388,6 +424,7 @@ Cc
 CKs
 CK
 CBD
+COW
 adress
 aaHO
 aC
@@ -417,6 +454,10 @@ tw
 tuw
 twu
 tC
+tags
+to
+the
+this
 unit
 uk
 ulm
@@ -426,6 +467,7 @@ ug
 uM
 uYT
 uo
+under
 MMU
 MB
 MSK
@@ -440,6 +482,7 @@ Multi
 MyD
 MUA
 MQ
+MORE
 Adress
 Aug
 ANN
@@ -483,6 +526,8 @@ fault
 fdECR
 fN
 fLe
+file
+frame
 IHDR
 IDATx
 III
@@ -548,6 +593,10 @@ FDQ
 FI
 FHxF
 FZ
+FCompArch
+FVirtual
+For
+Fault
 bbR
 bb
 bE
@@ -643,11 +692,15 @@ dS
 dH
 dw
 directory
+document
+decompress
+data
 YA
 YYY
 Yz
 YSh
 Yr
+You
 jT
 jf
 jjb
@@ -694,6 +747,7 @@ OPc
 OL
 Od
 OQ
+OPTIONS
 WIDAT
 WH
 Write
@@ -739,6 +793,8 @@ nZGd
 ng
 nf
 ne
+notes
+non
 LRU
 Least
 Lookaside
@@ -765,6 +821,11 @@ oy
 oe
 oct
 op
+obsidian
+open
+only
+object
+on
 Byte
 Buffer
 Bit
