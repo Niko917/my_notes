@@ -33,8 +33,10 @@ void func(A* a) {
 как будет выглядеть `vtable` для класса `A`? (Itanium C++ ABI)
 
 
-![vt|400](pics/vt.png)
 
+<img src=https://github.com/user-attachments/assets/b87366b5-1907-41e3-b8bd-0c9fcd4e6052 alt= vt width=400>
+
+$$\space$$
 
 | Component                        | Type                                          | Value                          |
 | -------------------------------- | --------------------------------------------- | ------------------------------ |
@@ -65,7 +67,10 @@ Run-Time Type Information - это механизм, который позвол
 ---
 ### RTTI layout
 
-![rtti-layout|500](pics/rtti-layout.jpeg)
+
+<img src=https://github.com/user-attachments/assets/347ad35b-2b0a-44f2-80b8-544c06b8b62a width=600>
+
+$\space$
 
 в данном случае `.rdata` это сегмент в виртуальной памяти процесса, который содержит данные, доступные только для чтения.
 
