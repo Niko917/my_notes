@@ -161,8 +161,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "903a23464550a9ee",
+  "active": "0062b08dc8adee37",
   "lastOpenFiles": [
+    "cs/languages/rust/basis/borrow checker.md",
     "cs/pictures/vtable inside 1.png",
     "cs/pictures/vtable inside.png",
     "cs/pictures/vt.png",
@@ -173,7 +174,6 @@
     "cs/pictures/Virtual adress translation.png",
     "cs/pictures/value categories.png",
     "cs/pictures/using_ram_as_cache_1.png",
-    "cs/pictures/using ram as cache.png",
     "cs/pictures",
     "cs/Compiler fundamentals/phases/Semantic analysis.md",
     "cs/Compiler fundamentals/phases/Preprocessing.md",
@@ -189,7 +189,6 @@
     "cs/languages/rust/basis/match && pattern matching.md",
     "cs/languages/rust/basis/Iterators.md",
     "cs/languages/rust/basis/enums.md",
-    "cs/languages/rust/basis/borrow checker.md",
     "cs/languages/rust/basis/closure types.md",
     "cs/languages/rust/basis/Traits.md",
     "cs/languages/rust/basis/Static && Dynamic dispatch && vtables.md",

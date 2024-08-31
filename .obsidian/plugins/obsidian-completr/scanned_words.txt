@@ -248,6 +248,7 @@ sized
 smart
 subtyping
 switch
+src
 PUBLIC
 Paging
 PPs
@@ -735,6 +736,7 @@ instruction
 isize
 information
 iterating
+img
 quot
 qvBtt
 qs
@@ -945,6 +947,7 @@ align
 advanced
 about
 an
+alt
 translation
 tables
 table
