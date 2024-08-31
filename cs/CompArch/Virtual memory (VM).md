@@ -28,7 +28,7 @@ VM предоставляет 3 основные возможности:
 			- Каждый процесс имеет свою собственную таблицу страниц.
 
 
-![Virtual adress translation 1.png|600](pics/Virtual_adress_translation_1.png)
+![Virtual adress translation 1.png|600](../pics/Virtual_adress_translation_1.png)
 
 ---
 ## Adress spaces
