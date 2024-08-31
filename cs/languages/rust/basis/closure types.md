@@ -91,7 +91,10 @@ $$
 
 ## [Memory layout ](https://www.youtube.com/watch?v=rDoqT-a6UFg&t=2077s)
 
-![closure mem layout.png|500](closure_mem_layout.png)
+
+
+<img src=https://github.com/user-attachments/assets/ed45f3eb-3ef4-4fd5-ac04-f31ee1b13806 width=500>
+
 
 замыкания внутренне устроены как отдельные структуры, реализующие closure traits
 
