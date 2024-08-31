@@ -98,7 +98,8 @@ Page table - это структура данных, хранящаяся в RAM
 Если виртуальная страница находится в RAM, это означает, что она уже была загружена из более медленного дискового хранилища в RAM для ускорения доступа к данным.
 
 
-<img src="https://github.com/user-attachments/assets/166edff5-fdb1-497f-a708-acdcb7083c14" alt="page_table" width="700">
+<img src="https://github.com/user-attachments/assets/af31d74a-db3c-4b4f-a539-2e5d353c3bd9" alt="page_table" width="700">
+
 
 таким образом, page table это просто массив из page table enries (PTEs).
 
