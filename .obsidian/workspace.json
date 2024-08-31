@@ -161,8 +161,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0062b08dc8adee37",
+  "active": "903a23464550a9ee",
   "lastOpenFiles": [
+    "cs/pictures/vtable inside 1.png",
+    "cs/pictures/vtable inside.png",
+    "cs/pictures/vt.png",
+    "cs/pictures/VPN layout 1.png",
+    "cs/pictures/VPN layout.png",
+    "cs/pictures/vm_segment_structs_list.png",
+    "cs/pictures/Virtual_adress_translation_1.png",
+    "cs/pictures/Virtual adress translation.png",
+    "cs/pictures/value categories.png",
+    "cs/pictures/using_ram_as_cache_1.png",
+    "cs/pictures/using ram as cache.png",
+    "cs/pictures",
     "cs/Compiler fundamentals/phases/Semantic analysis.md",
     "cs/Compiler fundamentals/phases/Preprocessing.md",
     "cs/Compiler fundamentals/phases/Lexical Analysis.md",
@@ -171,18 +183,8 @@
     "cs/Compiler fundamentals/static && dynamic linking.md",
     "cs/Compiler fundamentals/Name mangling.md",
     "cs/CompArch/OS/Linux virtual memory system.md",
-    "pics/shared_object.png",
-    "pics/page_fault_linux.png",
-    "pics/page_tables.png",
-    "pics/vm_segment_structs_list.png",
-    "pics/Linux_vm.png",
     "cs/CompArch/How transistors run code?.md",
     "cs/CompArch/Virtual memory (VM).md",
-    "pics/PTE_1.png",
-    "pics/pte_layout.png",
-    "pics/Virtual_adress_translation_1.png",
-    "pics/using_ram_as_cache_1.png",
-    "pics/page_table.png",
     "cs/languages/rust/basis/Dynamically sized types.md",
     "cs/languages/rust/basis/match && pattern matching.md",
     "cs/languages/rust/basis/Iterators.md",
@@ -198,7 +200,6 @@
     "cs/languages/rust/basis/Macros && Attributes.md",
     "cs/languages/rust/basis/lifetimes.md",
     "cs/languages/rust/basis/Error handling.md",
-    "cs/languages/rust/basis/Crates && Packages.md",
     "cs/CompArch/OS/kernel",
     "cs/languages/c++/basis/move semantics/value-category-cheatsheet.pdf",
     "cs/Compiler fundamentals",
@@ -207,7 +208,6 @@
     "deepsvg/requirements.txt",
     "deepsvg/pretrained/download.sh",
     "deepsvg/pretrained",
-    "deepsvg/notebooks/svgtensor.ipynb",
-    "deepsvg/notebooks/svglib.ipynb"
+    "deepsvg/notebooks/svgtensor.ipynb"
   ]
 }

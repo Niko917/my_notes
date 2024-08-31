@@ -11,11 +11,11 @@
 
 Любое выражение определённо принадлежит к одной из трёх основных категорий, которые являются подмножествами более общий категорий `gvalue` и `rvalue`.
 
-![Value categories](pics/Diagram.svg)
+![Value categories](Diagram.svg)
 
 
 
-![lvalues-rvalues](pics/lvalues-rvalues.png)
+![lvalues-rvalues](lvalues-rvalues.png)
 
 ---
 ### prvalue (pure rvalue)
