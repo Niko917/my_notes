@@ -11,9 +11,9 @@
 
 Любое выражение определённо принадлежит к одной из трёх основных категорий, которые являются подмножествами более общий категорий `gvalue` и `rvalue`.
 
-![[Untitled Diagram.svg]]
 
-![[content/Diagram.svg]]
+
+![[pics/Diagram.svg]]
 
 ![[lvalues-rvalues.png]]
 
@@ -168,11 +168,6 @@ foo f; // lvalue
 std::move(f).a; // xvalue
 foo{}.a; // xvalue
 ```
----
-
-
-## Reference qualifiers
-
 
 ---
 ## Reference collapsing
