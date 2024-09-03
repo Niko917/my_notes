@@ -23,7 +23,6 @@ fn main() {
 ```
 
 
-![[pattern matching.png]]
 
 ---
 ## match as an expression

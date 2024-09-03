@@ -9,11 +9,9 @@
 --- 
 ## [Static cast](https://ru.cppreference.com/w/cpp/language/static_cast)
 
-это явное преобразование типа,которое выполняется в процессе компиляции
+это явное преобразование типа,которое выполняется на этапе компиляции
 
 ` static cast <target type> (expression); `
-
-// возвращает значение типа `target type` 
 
 Применение:
 

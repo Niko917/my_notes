@@ -1,8 +1,7 @@
 ## [Option< T >](https://doc.rust-lang.org/std/option/index.html)
 
 
-
-каждый параметр $Option<T>$ является либо $Some(T)$ и содержит значение, либо является $None$ и не содержит его
+каждый параметр Option<> является либо Some(T) и содержит значение, либо является $None$ и не содержит его
 
 ``` Rust
 enum Option<T> {
@@ -10,12 +9,23 @@ Some(T),
 None,
 }
 ```
+<<<<<<< HEAD
 - ### cases:
   
   ***1.***  pattern matching ^8c8e1b
   
   ```Rust
   fn divide(numerator: f64, denominator: f64) -> Option<f64> {
+=======
+
+
+### cases:
+
+***1.***  pattern matching
+
+```Rust
+fn divide(numerator: f64, denominator: f64) -> Option<f64> {
+>>>>>>> 3dca7a106221c5b0c6a91c0e3a23d15657c66fcb
     if denominator == 0.0 {
         None
     } else {
@@ -32,6 +42,7 @@ None,
     Some(x) => println!("Result: {x}"),
     // The division was invalid
     None    => println!("Cannot divide by 0"),
+<<<<<<< HEAD
   }
   ```
   
@@ -56,10 +67,37 @@ None,
   check_optional(optional);
   
   fn check_optional(optional: Option<Box<i32>>) {
+=======
+}
+```
+
+
+***2.*** "Null" pointers
+
+так как в языке Rust из-за контроля безопасности не существует null-pointers => указатель в Rust всегда должен указывать на действительную область памяти.
+
+Несмотря на это, в языке Rust есть <mark style="background: #FF5582A6;">optional pointer</mark> . 
+Это обёртка умного указателя Box<> в Option. 
+
+Таким образом Optional<Box<>> является комбинацией 2-х типов: 
+- Optional<>
+- Box<> 
+
+
+```Rust
+let optional = None;
+check_optional(optional);
+
+let optional = Some(Box::new(9000));
+check_optional(optional);
+
+fn check_optional(optional: Option<Box<i32>>) {
+>>>>>>> 3dca7a106221c5b0c6a91c0e3a23d15657c66fcb
     match optional {
         Some(p) => println!("has value {p}"),
         None => println!("has no value"),
     }
+<<<<<<< HEAD
   }
   ```
   
@@ -70,6 +108,18 @@ None,
   ```Rust
   
   fn get_point() -> Option<Box<Point>> {
+=======
+}
+```
+
+Это позволяет указать, что объект, который мы обернули в Option может быть не действителен.
+
+также перед обращением и использованием типа $T$, на который указывает Box<>, необходимо проверить его валидность с помощью pattern matching.
+
+```Rust
+
+fn get_point() -> Option<Box<Point>> {
+>>>>>>> 3dca7a106221c5b0c6a91c0e3a23d15657c66fcb
     // some condition that return 'None'
     if some_condition {
         None
@@ -85,6 +135,7 @@ None,
         Some(p) => println!("Point: ({}, {})", p.x, p.y),
         None => println!("There is no Point"),
     }
+<<<<<<< HEAD
   }
   ```
   
@@ -103,6 +154,29 @@ None,
   Рассмотрим пример
   ```Rust
   fn add_last_numbers(stack: &mut Vec<i32>) -> Option<i32> {
+=======
+}
+```
+
+
+к тому же тип Option<> позволяет использовать множество [полезных  методов](https://doc.rust-lang.org/std/option/enum.Option.html#variants).
+
+---
+
+### [`&Option<T>` vs `Option<&T>`](https://www.youtube.com/watch?v=6c7pZYP_iIE)
+
+
+---
+
+## '?' operator 
+
+? - оператор для [[match && pattern matching]] при работе с перечислениями Result и Option
+
+Рассмотрим пример:
+
+```Rust
+fn add_last_numbers(stack: &mut Vec<i32>) -> Option<i32> {
+>>>>>>> 3dca7a106221c5b0c6a91c0e3a23d15657c66fcb
     let a = stack.pop();
     let b = stack.pop();
   
