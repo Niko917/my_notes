@@ -23,10 +23,10 @@
         
         \textbf{Билинейной формой} на $V$ называется функция $f(x,y): V \times V \to \mathbb{R}$, для которой определены следующие аксиомы:
         \begin{enumerate}
-            \item $\forall x,y,z \in V \mid \; f(x+y,z) = f(x, z) + f(y,z)$
-            \item $\forall \alpha \in \R, \forall x,y \in V \mid \;  f(\alpha x, y) = \alpha f(x,y)$
-            \item $\forall x, y, z \in V \mid \; f(x,y,z) = f(x,y) + f(x,z)$
-            \item $\forall \beta \in \R, \forall x, y \in V \mid \; f(x, \beta y) = \beta f(x,y)$
+            \item $\forall x,y,z \in V \quad \; f(x+y,z) = f(x, z) + f(y,z)$
+            \item $\forall \alpha \in \R, \forall x,y \in V \quad \;  f(\alpha x, y) = \alpha f(x,y)$
+            \item $\forall x, y, z \in V \quad \; f(x,y,z) = f(x,y) + f(x,z)$
+            \item $\forall \beta \in \R, \forall x, y \in V \quad \; f(x, \beta y) = \beta f(x,y)$
         \end{enumerate}
     \end{definition}
 \end{shdef}
@@ -50,7 +50,7 @@
     \[
     f(u, v) = -f(v, u) \quad \forall u, v \in V
     \]
-    \item Билинейная форма $f$ называется \underline{невырожденной}, если для любого ненулевого вектора $u \in V$ существует вектор $v \in V$ такой, что $f(u, v) \neq 0$.
+    \item Билинейная форма $f$ называется \underline{невырожденной}, если для любого \newline ненулевого вектора $u \in V$ существует вектор $v \in V$ такой, что $f(u, v) \neq 0$.
 \end{itemize}
 
 \clearpage
@@ -62,12 +62,12 @@
     \leavevmode \newline
     
     \textbf{Полуторолинейной формой} на $V$ называется функция 
-$g: V \times V \to \mathbb{C}$, удовлетворяющая следующим аксиомам:
+$g: V \times V \to \mathbb{C}$, \newline удовлетворяющая следующим аксиомам:
 \begin{enumerate}
-    \item $\forall x,y,z \in V \mid \; g(x + y,z) = g(x,z) + g(y,z)$
-    \item $\forall \lambda \in \mathbb{C} \; \forall x,y \in V \mid \; g(\lambda x, y) = \lambda g(x,y)$
-    \item $\forall x,y,z \in V \mid \; g(x,y+z) = g(x,y) + g(x,z)$
-    \item $\forall \mu \in \mathbb{C}, \; \forall x,y \in V \mid \; g(x, \mu y) = \overline{\mu} g(x,y)$
+    \item $\forall x,y,z \in V \quad g(x + y,z) = g(x,z) + g(y,z)$
+    \item $\forall \alpha \in \mathbb{C} \; \forall x,y \in V \quad  g(\alpha x, y) = \alpha g(x,y)$
+    \item $\forall x,y,z \in V \quad g(x,y+z) = g(x,y) + g(x,z)$
+    \item $\forall \mu \in \mathbb{C}, \; \forall x,y \in V \quad  g(x, \mu y) = \overline{\mu} g(x,y)$
     \item $g(x,y) = \sum_{i,j = 1}^{n} \ g(e_{i}, e_{j}) \ \xi_{i} \ \overline{\nu_{j}}$
 \end{enumerate}
     \end{definition}
@@ -77,7 +77,82 @@ $g: V \times V \to \mathbb{C}$, удовлетворяющая следующи�
 
 \section{Определения евклидовых и унитарных пространств}
 
+\begin{shdef}
+    \begin{definition}
+        \leavevmode\newline
+        
+        \textbf{Евклидово пространство} — это вещественное линейное пространство $E$, на котором задана симметричная положительно определенная билинейная форма $\langle \cdot, \cdot \rangle: E \times E \to \mathbb{R}$, обладающая следующими свойствами:
+        \begin{enumerate}
+            \item $\forall x, y \in E \quad \langle x, y \rangle = \langle y, x \rangle$
+            \item $\forall \alpha \in E \quad \forall x, y \in E \quad \langle \lambda x, y \rangle = \alpha \langle x, y \rangle$
+            \item $\forall x, y, z \in E \quad \langle x + y,z \rangle = \langle x,z \rangle + \langle y,z \rangle)$
+            \item $\forall x \in E \quad \langle x, x \rangle \geq 0 \quad (\langle x,x \rangle = 0 \Longleftrightarrow x = 0)$
+        \end{enumerate}
+        \vspace{0.3cm}
+        \textbf{Из свойств (1, 2, 3) вытекает следствие:} $\langle x, \alpha y + \beta z \rangle = \alpha \langle x,y \rangle + \beta \langle x,z \rangle$
+    \end{definition}
+\end{shdef}
+\vspace{0.5cm}
+Таким образом, некоторое пространство $E$ считается евклидовым, если и только если на нём определена скалярная симметричная билинейная форма, называемая \textbf{скалярным произведением}.
 
+\textbf{Примеры евклидовых пространств:}
+\begin{shex}
+    \begin{enumerate}
+        \item
+        Пусть $E = \mathbb{R}^n$.
+        Скалярное произведение в $\mathbb{R}^n$ можно записать в виде:
+        \[
+        \langle x, y \rangle = \sum_{i=1}^n \xi_i \mu_i
+        \]
+        где $x = (\xi_1, \xi_2, \ldots, \xi_n)$ и $y = (\mu_1, \mu_2, \ldots, \mu_n)$ — векторы в $\mathbb{R}^n$
+        
+        \clearpage
+        \item
+        Пусть $E$ — пространство непрерывных функций на отрезке $[a, b]$.
+        \newline 
+        Скалярное произведение можно определить как:
+        \[
+        \langle f, g \rangle = \int_a^b f(x) g(x) \, dx
+        \]
+        
+    \end{enumerate}
+\end{shex}
+
+\vspace{1cm}
+
+\begin{shdef}
+    \begin{definition}
+        \leavevmode \newline
+        
+        \textbf{Унитарное пространство} — это комплексное линейное пространство $U$, на котором задана эрмитова положительно определенная полуторалинейная форма $\langle \cdot, \cdot \rangle: U \times U \to \mathbb{C}$, обладающая следующими свойствами:
+    \begin{enumerate}
+        \item $\forall x, y \in U \quad \langle x, y \rangle = \overline{\langle y, x \rangle}$
+        \item $\forall \lambda \in \mathbb{C} \quad \forall x, y \in U \quad \langle \lambda x, y \rangle = \lambda \langle x, y \rangle$
+        \item $\forall x, y, z \in U \quad \langle x + y, z \rangle = \langle x, z \rangle + \langle y, z \rangle$
+        \item $\forall x \in U \quad \langle x,x \rangle \in \R \quad \langle x, x \rangle \geq 0 \quad (\langle x, x \rangle = 0 \Longleftrightarrow x = 0)$
+    \end{enumerate}
+    \vspace{0.3cm}
+    \end{definition}
+\end{shdef}
+
+\textbf{Примеры унитарных пространств:}
+\begin{shex}
+    \begin{enumerate}
+        \item Пусть \( U = \mathbb{C}^n \).
+    Скалярное произведение в \(\mathbb{C}^n\) можно записать в виде:
+    \[
+    \langle x, y \rangle = \sum_{i=1}^n \xi_i \overline{\mu_i}
+    \]
+    где \( x = (\xi_1, \xi_2, \ldots, \xi_n) \) и \( y = (\mu_1, \mu_2, \ldots, \mu_n) \) — векторы в \(\mathbb{C}^n\).
+
+\vspace{0.2cm}
+        \item Пусть \( U \) — пространство непрерывных функций на отрезке \([a, b]\) с комплексными значениями.
+    Скалярное произведение можно определить как:
+    \[
+    \langle f, g \rangle = \int_a^b f(x) \overline{g(x)} \, dx
+    \]
+    \end{enumerate}
+\end{shex}
 
 \begin{shth}
 \begin{theorem}
