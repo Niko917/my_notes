@@ -92,9 +92,10 @@ $g: V \times V \to \mathbb{C}$, \newline удовлетворяющая след
         \textbf{Из свойств (1, 2, 3) вытекает следствие:} $\langle x, \alpha y + \beta z \rangle = \alpha \langle x,y \rangle + \beta \langle x,z \rangle$
     \end{definition}
 \end{shdef}
-\vspace{0.5cm}
+\vspace{2.0cm}
 Таким образом, некоторое пространство $E$ считается евклидовым, если и только если на нём определена скалярная симметричная билинейная форма, называемая \textbf{скалярным произведением}.
 
+\clearpage
 \textbf{Примеры евклидовых пространств:}
 \begin{shex}
     \begin{enumerate}
@@ -135,6 +136,8 @@ $g: V \times V \to \mathbb{C}$, \newline удовлетворяющая след
     \end{definition}
 \end{shdef}
 
+
+\vspace{1.0cm}
 \textbf{Примеры унитарных пространств:}
 \begin{shex}
     \begin{enumerate}
@@ -154,14 +157,100 @@ $g: V \times V \to \mathbb{C}$, \newline удовлетворяющая след
     \end{enumerate}
 \end{shex}
 
-\begin{shth}
-\begin{theorem}
-    Очень важная теорема!
-\end{theorem}
-\end{shth}
+
+\clearpage
+Пусть $V -$ Евклидово / Унитарное пространство.
+
+\begin{shdef}
+    \begin{definition}
+    \leavevmode \newline
+   
+    $\|x\| = \sqrt{\langle x, x \rangle}$ - норма вектора $x \in V$
+        \begin{itemize}
+            \item $\|x\| > 0 \quad \longleftrightarrow  \quad x \neq 0$
+            \item  $\|x\| = 0 \quad \longleftrightarrow \quad x = 0$
+        \end{itemize}
+    \end{definition}
+\end{shdef}
+
+\vspace{1.0cm}
+\textbf{Примеры норм:}
+\begin{shex}
+    \begin{itemize}
+        \item Класс Гёльдоровых норм ($\|X\|_p = (|x_{1}|^p + |x_{2}|^p + \ldots |x_{n}^p|)^\frac{1}{p}$), \quad где $p \geq 1$.
+        \begin{enumerate}
+            \item \textbf{Евклидова норма в $\R^n$:} $\quad \|x\| = \sqrt{\xi_{1}^2 + \ldots \xi_{n}^2} = \sqrt{\sum_{k = 1}^{n} \xi_{k}^2}$
+            \item \textbf{Евклидова норма в $\mathbb{C}^n$:} $\quad \|x\| = \sqrt{|\xi_{1}|^2 + \ldots + |\xi_{n}|^2}$
+        \end{enumerate}
+    \end{itemize}
+\end{shex}
+
+
 
 
 
 \clearpage
+\section{Неравенство Коши-Буняковского}
+\begin{shth}
+\begin{theorem}
+    (Неравенство Коши-Буняковского).
+    \newline
+    
+    \vspace{0.3cm}
+    Пусть $K -$ это $E$ или $V$, \quad $x,y \in K$, \quad тогда $\| \langle x,y \rangle\| \; \leq \; \|x\| \cdot \|y\|$
+\end{theorem}
+\end{shth}
 
+\vspace{0.2cm}
+\begin{proof}
+
+
+
+    \begin{enumerate}
+        \item 
+        
+        $\textbf{Для Евклидова пространства} \; E:$ \; $\forall x, y \in E, \quad \forall \alpha \in \mathbb{R}$
+        
+        $$0 \; \leq \; \langle x \; - \; \alpha y, x \; - \; \alpha y \rangle \; = \; \langle x, x \rangle \; - \; \alpha \langle y, x \rangle \; - \; \alpha \langle x, y \rangle \; + \; \alpha^2 \langle y, y \rangle \; = \; \|x\|^2 \; - \; 2 \alpha \langle x, y \rangle \; + \; \alpha^2 \|y\|^2 \; \geq \; 0$$
+        
+        Это квадратный трёхчлен относительно \( \alpha \). 
+        
+        Для того чтобы оно выполнялось для всех \( \alpha \), дискриминант должен быть не положительным:
+        
+        $$\frac{D}{4} = \langle x, y \rangle^2 - \|x\|^2 \|y\|^2 \leq 0$$
+        
+        
+        $$\Longrightarrow \quad |\langle x, y \rangle| \leq \|x\| \|y\|$$
+        
+    \item \textbf{Для унитарного пространства \( V \):} \quad $\forall x, y \in V, \quad \forall \alpha, \beta \in \mathbb{C}$.
+        
+        $$0 \; \leq \; \langle \alpha x \; + \; \beta y, \alpha x \; + \; \beta y \rangle \; = \; \alpha \overline{\alpha} \langle x, x \rangle \; + \; \alpha \overline{\beta} \langle x, y \rangle \; + \; \beta \overline{\alpha} \langle y, x \rangle \; + \; \beta \overline{\beta} \langle y, y \rangle \; =$$
+        
+        $$= |\alpha|^2 \; \|x\|^2 \; + \; \alpha \overline{\beta} \langle x, y \rangle \; + \; \beta \; \overline{\alpha} \overline{\langle x, y \rangle } \; + \; |\beta|^2 \; \|y\|^2 \qquad \Longrightarrow$$
+        
+        $$\alpha := \|y\|^2 \) , \quad \( \beta := -\langle x, y \rangle$$
+ 
+        $$\Longrightarrow \quad \|y\|^4 \; \|x\|^2 - \|y\|^2 \langle x, y \rangle \overline{\langle x, y \rangle} - \|y\|^2 \; \langle x, y \rangle \overline{\langle x, y \rangle} \; + \; |\langle x, y \rangle |^2 \; \|y\|^2 \; =$$
+        
+        $$= \; \|y\|^2 \; (\|y\|^2 \; \|x\|^2 \; - \; \langle x, y \rangle \overline{\langle x, y \rangle} \; - \; \langle x,y \rangle \overline{\langle x, y \rangle} \; + \; |\langle x, y \rangle|^2) \; = \; \|y\|^2(\|x\|^2 \; \|y\|^2 - |\langle x, y \rangle|^2) \; \geq \; 0$$
+        
+        \newline
+        
+        \begin{itemize}
+        
+        \vspace{0.4cm} \item $y \; \neq \; 0 \; \Longrightarrow \; \|x\|^2 \; \|y\|^2 - |\langle x, y \rangle|^2 \; \geq \; 0 \; \Longrightarrow |\langle x, y \rangle| \; \leq \; \|x\| \; \|y\|$
+        
+        \vspace{0.4cm} \item $y \; = \; 0 \; \Longrightarrow \|y\| \; = \; 0, \; \langle x, y \rangle \; = \; 0 \; \Longrightarrow \; |\langle x, y \rangle \; \leq \; \|x\| \; \|y\|$
+        \end{itemize}
+    \end{enumerate}
+\end{proof}
+
+\clearpage
+\section{Неравенство Минковского}
+\begin{shth}
+    \begin{theorem}
+        (Неравенство Минковского).
+        \newline
+    \end{theorem}
+\end{shth}
 \end{document}
