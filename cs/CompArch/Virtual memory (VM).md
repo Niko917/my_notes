@@ -31,7 +31,6 @@ VM предоставляет 3 основные возможности:
 
 <img src="https://github.com/user-attachments/assets/5cc2fed5-2290-4983-921a-af74d47ddbaf" alt="Virtual_adress_translation_1" width="700" height="400">
 
-
 ---
 ## Adress spaces
 

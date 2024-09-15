@@ -53,6 +53,8 @@ vs
 vtable
 vptr
 variable
+visible
+val
 encoding
 eT
 eeU
@@ -94,6 +96,7 @@ example
 elf
 enum
 err
+events
 UTF
 Unallocated
 Uncached
@@ -249,6 +252,9 @@ smart
 subtyping
 switch
 src
+stroke
+sizing
+space
 PUBLIC
 Paging
 PPs
@@ -314,6 +320,7 @@ PartialOrd
 Packages
 Package
 Public
+Parsing
 SVG
 SG
 St
@@ -355,6 +362,9 @@ Special
 SportsCar
 Slices
 Symbol
+Syntactic
+Syntax
+Semantic
 EN
 Eb
 EDD
@@ -431,6 +441,8 @@ wa
 weak
 wide
 where
+white
+wrap
 px
 parent
 pages
@@ -473,6 +485,9 @@ protected
 png
 pics
 pte
+padding
+pos
+path
 height
 hd
 hii
@@ -494,6 +509,7 @@ hO
 how
 heap
 hierarchy
+href
 content
 ck
 cache
@@ -549,6 +565,11 @@ capturing
 circle
 call
 cases
+center
+colors
+color
+cannot
+clang
 lt
 lWQ
 lines
@@ -590,6 +611,8 @@ links
 lambda
 loadCargo
 lifetimes
+lvalues
+line
 mxGraphModel
 mxCell
 memory
@@ -643,6 +666,10 @@ match
 matches
 matching
 map
+margin
+middle
+miterlimit
+mangling
 gt
 gnome
 gJ
@@ -707,6 +734,11 @@ rc
 references
 rank
 ram
+rvalues
+rect
+rx
+requiredFeatures
+rgb
 id
 ih
 iS
@@ -737,6 +769,8 @@ isize
 information
 iterating
 img
+items
+inline
 quot
 qvBtt
 qs
@@ -948,6 +982,10 @@ advanced
 about
 an
 alt
+analysis
+aa
+all
+anchor
 translation
 tables
 table
@@ -991,6 +1029,10 @@ toml
 these
 turboBoost
 taking
+transform
+translate
+text
+target
 unit
 uk
 ulm
@@ -1050,6 +1092,7 @@ Mutability
 Method
 MAX
 Methods
+Mangling
 Adress
 Aug
 ANN
@@ -1095,6 +1138,8 @@ AwMOM
 API
 Automatic
 Alt
+AST
+Abstract
 KB
 Kn
 KH
@@ -1146,6 +1191,12 @@ forward
 functions
 fn
 for
+frontend
+fill
+foreignObject
+flex
+font
+family
 IHDR
 IDATx
 III
@@ -1236,6 +1287,8 @@ Traits
 Truck
 Types
 TODO
+Tree
+Text
 FFF
 FIFO
 First
@@ -1328,6 +1381,8 @@ by
 basis
 background
 binding
+border
+blank
 GG
 GT
 GbB
@@ -1447,6 +1502,11 @@ dispatch
 dereferencing
 deallocate
 default
+defs
+div
+display
+drawio
+dasharray
 YA
 YYY
 Yz
@@ -1495,6 +1555,7 @@ jY
 je
 jx
 jq
+justify
 NMd
 Ng
 Nn
@@ -1517,6 +1578,7 @@ Node
 Now
 NaN
 Null
+Name
 OG
 OU
 ODD
@@ -1600,6 +1662,7 @@ Hlz
 HG
 Higher
 HRTBs
+Helvetica
 zt
 zl
 zw
@@ -1635,6 +1698,10 @@ node
 null
 nullptr
 nil
+none
+normal
+not
+name
 LRU
 Least
 Lookaside
@@ -1692,6 +1759,7 @@ ownership
 optional
 ok
 or
+overflow
 Byte
 Buffer
 Bit

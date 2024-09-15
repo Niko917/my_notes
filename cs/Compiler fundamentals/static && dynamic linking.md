@@ -70,4 +70,3 @@ gcc -o my_program main.o utils.o -static -L/path/to/libs -lmylib
 - [Library order in static linking](https://eli.thegreenplace.net/2013/07/09/library-order-in-static-linking)
   
 - [What happens after the compiler in C++](https://www.youtube.com/watch?v=h4s891KVN80)
-- 
