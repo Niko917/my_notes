@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b0e9cd8ad411e4ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cs/languages/c++/basis/Modules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/Compiler fundamentals/static && dynamic linking.md",
+                "file": "cs/languages/c++/basis/Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/Compiler fundamentals/static && dynamic linking.md",
+                "file": "cs/languages/c++/basis/Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/Compiler fundamentals/static && dynamic linking.md"
+                "file": "cs/languages/c++/basis/Modules.md"
               }
             }
           }
@@ -209,11 +221,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ae5a636193de6358",
+  "active": "903a23464550a9ee",
   "lastOpenFiles": [
+    "cs/Compiler fundamentals/static && dynamic linking.md",
+    "cs/languages/c++/basis/Modules.md",
     "cs/Compiler fundamentals/Name mangling.md",
     "cs/Compiler fundamentals/Regular expressions.md",
-    "cs/Compiler fundamentals/static && dynamic linking.md",
     "cs/Compiler fundamentals/symbol table.md",
     "cs/Compiler fundamentals/phases/3. Syntax analysis.md",
     "cs/Compiler fundamentals/phases/4. Semantic analysis.md",
@@ -249,7 +262,6 @@
     "cs/languages/rust/basis/Traits.md",
     "cs/languages/rust/basis/Static && Dynamic dispatch && vtables.md",
     "cs/languages/rust/basis/Smart pointers.md",
-    "cs/languages/rust/basis/Self && self.md",
     "cs/CompArch/OS/kernel",
     "cs/Compiler fundamentals",
     "Excalidraw",
