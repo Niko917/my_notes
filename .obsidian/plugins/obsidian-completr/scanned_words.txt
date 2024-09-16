@@ -55,6 +55,7 @@ vptr
 variable
 visible
 val
+valid
 encoding
 eT
 eeU
@@ -97,6 +98,7 @@ elf
 enum
 err
 events
+error
 UTF
 Unallocated
 Uncached
@@ -200,6 +202,8 @@ Drop
 Derivable
 Dynamically
 DSTs
+Division
+Default
 svg
 spaces
 sBIT
@@ -255,6 +259,10 @@ src
 stroke
 sizing
 space
+stack
+success
+str
+string
 PUBLIC
 Paging
 PPs
@@ -321,6 +329,7 @@ Packages
 Package
 Public
 Parsing
+Point
 SVG
 SG
 St
@@ -365,6 +374,7 @@ Symbol
 Syntactic
 Syntax
 Semantic
+String
 EN
 Eb
 EDD
@@ -414,6 +424,7 @@ Eq
 Elision
 Err
 Examples
+Error
 width
 wX
 ww
@@ -443,6 +454,7 @@ wide
 where
 white
 wrap
+was
 px
 parent
 pages
@@ -488,6 +500,9 @@ pte
 padding
 pos
 path
+point
+process
+processing
 height
 hd
 hii
@@ -510,6 +525,7 @@ how
 heap
 hierarchy
 href
+has
 content
 ck
 cache
@@ -570,6 +586,9 @@ colors
 color
 cannot
 clang
+condition
+contain
+contains
 lt
 lWQ
 lines
@@ -613,6 +632,7 @@ loadCargo
 lifetimes
 lvalues
 line
+last
 mxGraphModel
 mxCell
 memory
@@ -670,6 +690,8 @@ margin
 middle
 miterlimit
 mangling
+message
+mapped
 gt
 gnome
 gJ
@@ -739,6 +761,8 @@ rect
 rx
 requiredFeatures
 rgb
+result
+retrieve
 id
 ih
 iS
@@ -771,6 +795,8 @@ iterating
 img
 items
 inline
+invalid
+io
 quot
 qvBtt
 qs
@@ -935,6 +961,7 @@ Crates
 Cargo
 Capturing
 Car
+Cannot
 adress
 aaHO
 aC
@@ -986,6 +1013,8 @@ analysis
 aa
 all
 anchor
+add
+any
 translation
 tables
 table
@@ -1033,6 +1062,7 @@ transform
 translate
 text
 target
+txt
 unit
 uk
 ulm
@@ -1093,6 +1123,7 @@ Method
 MAX
 Methods
 Mangling
+Mapped
 Adress
 Aug
 ANN
@@ -1197,6 +1228,7 @@ foreignObject
 flex
 font
 family
+fcb
 IHDR
 IDATx
 III
@@ -1289,6 +1321,8 @@ Types
 TODO
 Tree
 Text
+The
+There
 FFF
 FIFO
 First
@@ -1335,6 +1369,8 @@ Fbasis
 Fcompile
 Fsymbol
 FF
+Final
+File
 bbR
 bb
 bE
@@ -1507,6 +1543,10 @@ div
 display
 drawio
 dasharray
+divide
+denominator
+dca
+division
 YA
 YYY
 Yz
@@ -1663,6 +1703,7 @@ HG
 Higher
 HRTBs
 Helvetica
+HEAD
 zt
 zl
 zw
@@ -1702,6 +1743,9 @@ none
 normal
 not
 name
+numerator
+no
+numbers
 LRU
 Least
 Lookaside
@@ -1760,6 +1804,7 @@ optional
 ok
 or
 overflow
+option
 Byte
 Buffer
 Bit
@@ -1798,6 +1843,7 @@ BaseFont
 Bph
 Binary
 Bounds
+Box
 XD
 Xk
 XU
