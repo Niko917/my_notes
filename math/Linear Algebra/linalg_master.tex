@@ -228,13 +228,12 @@ $g: V \times V \to \mathbb{C}$, \newline удовлетворяющая след
         
         $$= |\alpha|^2 \; \|x\|^2 \; + \; \alpha \overline{\beta} \langle x, y \rangle \; + \; \beta \; \overline{\alpha} \overline{\langle x, y \rangle } \; + \; |\beta|^2 \; \|y\|^2 \qquad \Longrightarrow$$
         
-        $$\alpha := \|y\|^2 \) , \quad \( \beta := -\langle x, y \rangle$$
+        $$\alpha := \|y\|^2 ) , \quad ( \beta := -\langle x, y \rangle$$
  
         $$\Longrightarrow \quad \|y\|^4 \; \|x\|^2 - \|y\|^2 \langle x, y \rangle \overline{\langle x, y \rangle} - \|y\|^2 \; \langle x, y \rangle \overline{\langle x, y \rangle} \; + \; |\langle x, y \rangle |^2 \; \|y\|^2 \; =$$
         
         $$= \; \|y\|^2 \; (\|y\|^2 \; \|x\|^2 \; - \; \langle x, y \rangle \overline{\langle x, y \rangle} \; - \; \langle x,y \rangle \overline{\langle x, y \rangle} \; + \; |\langle x, y \rangle|^2) \; = \; \|y\|^2(\|x\|^2 \; \|y\|^2 - |\langle x, y \rangle|^2) \; \geq \; 0$$
         
-        \newline
         
         \begin{itemize}
         
@@ -249,8 +248,72 @@ $g: V \times V \to \mathbb{C}$, \newline удовлетворяющая след
 \section{Неравенство Минковского}
 \begin{shth}
     \begin{theorem}
-        (Неравенство Минковского).
+        (Неравенство Минковского $\triangle$).
         \newline
+        $\forall x,y \in V \quad ||x + y|| \; \leq \; ||x|| + ||y||$
     \end{theorem}
 \end{shth}
+
+
+\vspace{0.2cm}
+\begin{proof}
+    \begin{enumerate}
+        \item \textbf{Для Евклидова пространства \( E \):} \quad \(\forall x, y \in E\)
+        
+        \[
+        \|x + y\|^2 = \langle x + y, x + y \rangle = \langle x, x \rangle + \langle x, y \rangle + \langle y, x \rangle + \langle y, y \rangle
+        \]
+        
+        Используя неравенство Коши-Буняковского, получаем:
+        
+        \[
+        \langle x, y \rangle + \langle y, x \rangle \leq 2 \cdot \frac{|\langle x, y \rangle| + |\langle y, x \rangle|}{2} \leq 2 \cdot \frac{\|x\| \|y\| + \|y\| \|x\|}{2} = 2 \|x\| \|y\|
+        \]
+        
+        Таким образом:
+        
+        \[
+        \|x + y\|^2 \leq \|x\|^2 + 2 \|x\| \|y\| + \|y\|^2 = (\|x\| + \|y\|)^2
+        \]
+        
+        Извлекая квадратный корень из обеих частей, получаем:
+        
+        \[
+        \|x + y\| \leq \|x\| + \|y\|
+        \]
+        
+        \item \textbf{Для унитарного пространства \( V \):} \quad \(\forall x, y \in V\)
+        
+        \[
+        \|x + y\|^2 = \langle x + y, x + y \rangle = \langle x, x \rangle + \langle x, y \rangle + \langle y, x \rangle + \langle y, y \rangle
+        \]
+        
+        Используя неравенство Коши-Буняковского, получаем:
+        
+        \[
+        ||x||^2 \; + \; \overline{\langle x, y \rangle} \; + \; \langle x ,y \rangle \; + \; ||y||^2 \; \leq \; ||x||^2 \; + \; 2 |\langle x,y \rangle | \; + \; ||y||^2  \; \leq \newline 
+        \]
+        
+        $$\; \leq \; ||x||^2 \; + \; 2 ||x|| ||y|| \; + \; ||y||^2 = \langle ||x|| \; + \; ||y|| \rangle^2$$
+        
+        
+        Извлекая квадратный корень из обеих частей, получаем:
+        
+        
+        $$\|x + y\| \leq \|x\| + \|y\|$$
+        
+   
+        
+    \end{enumerate}
+\end{proof}
+
+\begin{shex}
+    Примеры:
+    \begin{enumerate}
+        \item $\R^n: \quad \langle x, y \rangle = \xi_1 \mu_1 + \ldots \xi_n \mu_n \quad (\sum\limits_{i = 1}^{n} \xi_i \; \mu_i)^2 \; \leq \; (\sum\limits_{i = 1}^{n} \xi_{i}^2) \; (\sum\limits_{i = 1}^{n} \mu_{i}^2)$
+        \item $\C^n: \quad \langle x, y \rangle = \xi_{1} \overline{\mu_{1}} + \ldots \xi_{n} \overline{\mu_{n}}$
+    \end{enumerate}
+    
+\end{shex}
+
 \end{document}
