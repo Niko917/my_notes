@@ -1,7 +1,7 @@
 {
   "accentColor": "#a31f40",
-  "interfaceFontFamily": "TeX Gyre Bonum",
-  "textFontFamily": "TeX Gyre Bonum",
+  "interfaceFontFamily": "0xProto Nerd Font",
+  "textFontFamily": "0xProto Nerd Font",
   "baseFontSize": 19,
   "theme": "obsidian",
   "cssTheme": "Vanilla AMOLED"

@@ -9,23 +9,13 @@ Some(T),
 None,
 }
 ```
-<<<<<<< HEAD
+
 - ### cases:
   
-  ***1.***  pattern matching ^8c8e1b
+	1. pattern matching 
   
   ```Rust
-  fn divide(numerator: f64, denominator: f64) -> Option<f64> {
-=======
-
-
-### cases:
-
-***1.***  pattern matching
-
-```Rust
 fn divide(numerator: f64, denominator: f64) -> Option<f64> {
->>>>>>> 3dca7a106221c5b0c6a91c0e3a23d15657c66fcb
     if denominator == 0.0 {
         None
     } else {
@@ -42,12 +32,11 @@ fn divide(numerator: f64, denominator: f64) -> Option<f64> {
     Some(x) => println!("Result: {x}"),
     // The division was invalid
     None    => println!("Cannot divide by 0"),
-<<<<<<< HEAD
-  }
+}
   ```
   
   
-  ***2.*** "Null" pointers
+	2. "Null" pointers
   
   так как в языке Rust из-за контроля безопасности не существует null-pointers => указатель в Rust всегда должен указывать на действительную область памяти.
   
@@ -66,13 +55,11 @@ fn divide(numerator: f64, denominator: f64) -> Option<f64> {
   let optional = Some(Box::new(9000));
   check_optional(optional);
   
-  fn check_optional(optional: Option<Box<i32>>) {
-=======
-}
+  fn check_optional(optional: Option<Box<i32>>) {}
 ```
 
 
-***2.*** "Null" pointers
+2. "Null" pointers
 
 так как в языке Rust из-за контроля безопасности не существует null-pointers => указатель в Rust всегда должен указывать на действительную область памяти.
 
@@ -92,13 +79,11 @@ let optional = Some(Box::new(9000));
 check_optional(optional);
 
 fn check_optional(optional: Option<Box<i32>>) {
->>>>>>> 3dca7a106221c5b0c6a91c0e3a23d15657c66fcb
     match optional {
         Some(p) => println!("has value {p}"),
         None => println!("has no value"),
     }
-<<<<<<< HEAD
-  }
+}
   ```
   
   Это позволяет указать, что объект, который мы обернули в Option может быть не действителен.
@@ -107,9 +92,7 @@ fn check_optional(optional: Option<Box<i32>>) {
   
   ```Rust
   
-  fn get_point() -> Option<Box<Point>> {
-=======
-}
+  fn get_point() -> Option<Box<Point>> {}
 ```
 
 Это позволяет указать, что объект, который мы обернули в Option может быть не действителен.
@@ -119,7 +102,6 @@ fn check_optional(optional: Option<Box<i32>>) {
 ```Rust
 
 fn get_point() -> Option<Box<Point>> {
->>>>>>> 3dca7a106221c5b0c6a91c0e3a23d15657c66fcb
     // some condition that return 'None'
     if some_condition {
         None
@@ -135,7 +117,6 @@ fn get_point() -> Option<Box<Point>> {
         Some(p) => println!("Point: ({}, {})", p.x, p.y),
         None => println!("There is no Point"),
     }
-<<<<<<< HEAD
   }
   ```
   
