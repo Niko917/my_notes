@@ -86,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/languages/c++/basis/Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/languages/c++/basis/Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/languages/c++/basis/Modules.md"
+                "file": "Без названия.md"
               }
             }
           }
@@ -149,10 +147,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b0e9cd8ad411e4ad",
+  "active": "903a23464550a9ee",
   "lastOpenFiles": [
-    "cs/languages/rust/basis/Option<T> &&  Result<T> enums.md",
     "cs/languages/c++/basis/Modules.md",
+    "Без названия.md",
+    "cs/languages/rust/basis/Option<T> &&  Result<T> enums.md",
     "math/Linear Algebra/linalg_master.tex",
     "math/Linear Algebra",
     "cs/languages/c++/basis/Concepts.md",
@@ -191,7 +190,6 @@
     "cs/languages/rust/basis/Iterators.md",
     "cs/languages/rust/basis/enums.md",
     "cs/languages/rust/basis/closure types.md",
-    "cs/languages/rust/basis/Traits.md",
     "cs/CompArch/OS/kernel",
     "cs/Compiler fundamentals",
     "Excalidraw",
