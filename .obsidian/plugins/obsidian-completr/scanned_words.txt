@@ -99,6 +99,7 @@ enum
 err
 events
 error
+export
 UTF
 Unallocated
 Uncached
@@ -204,6 +205,7 @@ Dynamically
 DSTs
 Division
 Default
+Dependencies
 svg
 spaces
 sBIT
@@ -263,6 +265,7 @@ stack
 success
 str
 string
+submodules
 PUBLIC
 Paging
 PPs
@@ -375,6 +378,7 @@ Syntactic
 Syntax
 Semantic
 String
+Submodules
 EN
 Eb
 EDD
@@ -589,6 +593,8 @@ clang
 condition
 contain
 contains
+capture
+clause
 lt
 lWQ
 lines
@@ -962,6 +968,10 @@ Cargo
 Capturing
 Car
 Cannot
+Creating
+Closure
+Captures
+Class
 adress
 aaHO
 aC
@@ -1124,6 +1134,10 @@ MAX
 Methods
 Mangling
 Mapped
+Module
+MIU
+Modules
+Member
 Adress
 Aug
 ANN
@@ -1275,6 +1289,7 @@ Interior
 Implementation
 Implicit
 Iterating
+Interface
 Time
 Thu
 TTTp
@@ -1323,6 +1338,7 @@ Tree
 Text
 The
 There
+Transitive
 FFF
 FIFO
 First
@@ -1419,6 +1435,7 @@ background
 binding
 border
 blank
+blocks
 GG
 GT
 GbB

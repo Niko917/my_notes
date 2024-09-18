@@ -1,5 +1,5 @@
 \documentclass[12px]{report}
-\input{../../../preamble.tex}
+\input{../preamble.tex}
 
 \title{Дополнительные главы линейной алгебры}
 \author{составлено Николаем Колбом}
@@ -187,8 +187,6 @@ $g: V \times V \to \mathbb{C}$, \newline удовлетворяющая след
 
 
 
-
-
 \clearpage
 \section{Неравенство Коши-Буняковского}
 \begin{shth}
@@ -310,10 +308,128 @@ $g: V \times V \to \mathbb{C}$, \newline удовлетворяющая след
 \begin{shex}
     Примеры:
     \begin{enumerate}
-        \item $\R^n: \quad \langle x, y \rangle = \xi_1 \mu_1 + \ldots \xi_n \mu_n \quad (\sum\limits_{i = 1}^{n} \xi_i \; \mu_i)^2 \; \leq \; (\sum\limits_{i = 1}^{n} \xi_{i}^2) \; (\sum\limits_{i = 1}^{n} \mu_{i}^2)$
-        \item $\C^n: \quad \langle x, y \rangle = \xi_{1} \overline{\mu_{1}} + \ldots \xi_{n} \overline{\mu_{n}}$
+        \item $\R^n: \quad \langle x, y \rangle = \xi_1 \mu_1 + \ldots + \xi_n \mu_n \quad (\sum\limits_{i = 1}^{n} \xi_i \; \mu_i)^2 \; \leq \; (\sum\limits_{i = 1}^{n} \xi_{i}^2) \; (\sum\limits_{i = 1}^{n} \mu_{i}^2)$
+        \item $\mathbb{C}^n: \quad \langle x,y \rangle = \xi_{1} \overline{\mu_{1}} + \ldots + \xi_{n} \overline{\mu_{n}} \quad (\sum\limits_{i = 1}^{n} \xi_{i} \; \overline{\mu_{i}}) \; \leq \; (\sum\limits_{i = 1}^{n} |\xi_{i}|^2) \; (\sum\limits_{i = 1}^{n} |\mu_{i}|^2)$
     \end{enumerate}
-    
 \end{shex}
 
+\clearpage
+\begin{shdef}
+\begin{definition}
+    \leavevmode \newline
+    Пусть $\mathbb{V}$ — это $E$ или $V$, и $\mathbb{E} = \{e_1, \ldots, e_n\}$ — базис в $\mathbb{V}$. \newline
+    Матрицей Грама называется матрица $G$, элементы которой определяются как:
+    \[
+    G_{ij} = (\langle e_i, e_j \rangle),
+    \]
+    где $\langle \cdot, \cdot \rangle$ обозначает скалярное произведение в $\mathbb{V}$.
+\end{definition}
+\end{shdef}
+
+\vspace{0.2cm}
+
+\begin{shth}
+    \begin{theorem}
+        Теперь $\mathbb{V}$ - это только $E$. \newline
+        $a_{1}, \ldots, a_{k} \in E, \quad G = (\langle a_{i} a_{j} \rangle)$
+        
+        \begin{enumerate}
+            \item Если ${a_{1}, \ldots, a_{k}}$ - ЛНЗ, то $|G| > 0$
+            \item Если ${a_{1}, \ldots, a_{k}}$ - ЛЗ, то $|G| = 0$
+        \end{enumerate}
+    \end{theorem}
+\end{shth}
+
+\vspace{0.2cm}
+\begin{proof}
+\leavevmode \newline
+    \begin{enumerate}
+        \item ${a_{1}, \ldots, a_{k}}$ - ЛНЗ, \quad $E_{1} = \alpha(a_{1}, \ldots, a_{k})$ 
+        \newline 
+        
+        $\forall x, y \in E_{1}$ \quad  $x = \xi_{1} a_{1} \; + \; \ldots \; + \; \xi_{k} a_{k}, \quad y = \mu_{1} a_{1} \; + \; \ldots \; + \; \mu_{k} a_{k}$ 
+        \newline 
+        
+        $\langle x, y \rangle = \sum\limits_{i, j = 1}^{k} (a_{i} a_{j}) \xi_{i} \mu_{j} \Longrightarrow$ по критерию Сильвестра $|E| > 0$
+        \newline 
+        
+        \item ${a_{1}, \ldots, a_{k}}$ - ЛЗ \; $\Longrightarrow \exists \alpha_{1}, \ldots, \alpha_{k}$ не все нули, такие что $\alpha_{1} a_{1} + \ldots + \alpha_{k} a_{k} = \boldsymbol{0}$
+        \newline
+        
+        
+    \[
+    \Longrightarrow
+        \begin{cases}
+            \alpha_{1} \langle a_1, a_{1} \rangle + \ldots + \alpha_{k} \langle a_{k}, a_{1} \rangle = \mathbf{0} \\
+            \alpha_{1} \langle a_{1}, a_{2} \rangle + \ldots + \alpha_{k} \langle a_{k}, a_{2} \rangle = \mathbf{0} \\
+            \vdots \\
+            
+            \alpha_{1} \langle a_{1}, a_{k} \rangle + \ldots + \alpha_{k} \langle a_{k}, a_{k} \rangle = \mathbf{0}
+        \end{cases}
+    \]
+    \newline
+    
+    $\Longrightarrow$ Система имеет нетривиальное решение $\Longrightarrow$ её определитель равен нулю, а это и есть $|G|.$
+    \end{enumerate}
+\end{proof}
+
+\clearpage
+
+\section{Ортонормированные базисы в $E$ и $V$}
+
+$\mathbb{V}$ - это $E$ или $V$
+
+\begin{shdef}
+    \begin{definition}
+        \
+        $x \perp y$, если $\langle x, y \rangle = 0$
+    \end{definition}
+    
+    \begin{definition}
+        $\mathbb{E}$ - базис в $\mathbb{V}$. \quad
+        \
+        $\mathbb{E}$ - ОНБ, \ если $\langle e_{i}, e_{j} \rangle = \delta_{ij} = \begin{cases}
+        1, i = j \\
+        0, i \neq j \\
+        \end{cases}$
+    \end{definition}
+\end{shdef}
+
+\vspace{0.4cm}
+\begin{shth}
+    \begin{theorem}
+        \leavevmode \newline
+        Если $a_{1}, \ldots, a_{k} \neq 0$ и $a_{i} \perp a_{j}, \ i \neq j,$ то это ЛНЗ система.
+    \end{theorem}
+\end{shth}
+
+\begin{proof}
+\leavevmode \newline
+
+    От противного: Они ЛЗ $\Longrightarrow$ $\exists \ \alpha_{1}, \ldots, \alpha_{k}$ не все 0, что: 
+\newline 
+
+    $$(*) \ \alpha_{1} a_{1} + \ldots + \alpha_{k} a_{k} = 0$$.
+    Умножаем скалярно на $a_{1}$
+    \newline
+    
+    $\Longrightarrow \alpha_{1} \langle a_{1}, a_{1} \rangle + \alpha_{2} \langle a_{2}, a_{1} \rangle + \ldots + \alpha_{k} \langle a_{k}, a_{1} \rangle = 0 \ \Longrightarrow \alpha_{1} = 0$
+    \newline
+    
+    умножаем $(*)$ на $a_{2}$ и получаем, что $\alpha_{2} = 0$
+    
+    \
+    
+    $\Longrightarrow$ все $\alpha_{i} = 0 \ \Longrightarrow$ противоречие! 
+\end{proof}
+
+\vspace{0.4cm}
+
+\begin{shth}
+    \begin{theorem}
+        (об ортогонализации по Шмидту)
+
+        \end{enumerate}
+    \end{theorem}
+\end{shth}
 \end{document}

@@ -6,6 +6,7 @@
       {
         "id": "7f1e1a1d00df382f",
         "type": "tabs",
+        "dimension": 73.40637450199203,
         "children": [
           {
             "id": "b0e9cd8ad411e4ad",
@@ -18,6 +19,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c65bb1032f3b9a28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cs/languages/c++/basis/Lambdas.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "c17865944999ee01"
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "ccec12a9c3e16f6b",
+        "type": "tabs",
+        "dimension": 26.593625498007967,
+        "children": [
+          {
+            "id": "56d2bfb19203d196",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "cs/languages/c++/basis/Lambdas.md"
+              }
+            },
+            "group": "c17865944999ee01"
           }
         ]
       }
@@ -86,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cs/languages/c++/basis/Lambdas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cs/languages/c++/basis/Lambdas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Без названия.md"
+                "file": "cs/languages/c++/basis/Lambdas.md"
               }
             }
           }
@@ -147,14 +182,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "903a23464550a9ee",
+  "active": "56d2bfb19203d196",
   "lastOpenFiles": [
+    "cs/languages/c++/basis/Allocators.md",
+    "cs/cryptography/fundamentals",
+    "cs/cryptography",
+    "math/formal languages",
+    "cs/languages/c++/basis/Concepts.md",
+    "cs/languages/c++/basis/auto & decltype.md",
+    "cs/languages/c++/basis/CRTP.md",
+    "cs/languages/c++/basis/functional objects.md",
+    "cs/languages/c++/basis/Lambdas.md",
     "cs/languages/c++/basis/Modules.md",
-    "Без названия.md",
+    "cs/languages/c++/basis/references.md",
+    "cs/languages/c++/basis/Templates.md",
     "cs/languages/rust/basis/Option<T> &&  Result<T> enums.md",
     "math/Linear Algebra/linalg_master.tex",
     "math/Linear Algebra",
-    "cs/languages/c++/basis/Concepts.md",
     "cs/Compiler fundamentals/static && dynamic linking.md",
     "cs/Compiler fundamentals/Name mangling.md",
     "cs/Compiler fundamentals/Regular expressions.md",
@@ -184,16 +228,7 @@
     "cs/pictures/vt.png",
     "cs/pictures",
     "cs/CompArch/OS/Linux virtual memory system.md",
-    "cs/CompArch/How transistors run code?.md",
-    "cs/languages/rust/basis/Dynamically sized types.md",
-    "cs/languages/rust/basis/match && pattern matching.md",
-    "cs/languages/rust/basis/Iterators.md",
-    "cs/languages/rust/basis/enums.md",
-    "cs/languages/rust/basis/closure types.md",
     "cs/CompArch/OS/kernel",
-    "cs/Compiler fundamentals",
-    "Excalidraw",
-    "deepsvg/Miniconda3-latest-Linux-x86_64.sh",
-    "deepsvg/requirements.txt"
+    "cs/Compiler fundamentals"
   ]
 }
