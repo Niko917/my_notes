@@ -6,7 +6,7 @@
       {
         "id": "7f1e1a1d00df382f",
         "type": "tabs",
-        "dimension": 73.40637450199203,
+        "dimension": 74.22680412371135,
         "children": [
           {
             "id": "b0e9cd8ad411e4ad",
@@ -26,31 +26,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/languages/c++/basis/Lambdas.md",
+                "file": "cs/CompArch/what is CPU?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "474b13ed5f8ee9d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cs/CompArch/Call Stack && Stack Frames.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "c17865944999ee01"
+            "group": "399bb3b913109fae"
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
-        "id": "ccec12a9c3e16f6b",
+        "id": "14e83ae99759f4f5",
         "type": "tabs",
-        "dimension": 26.593625498007967,
+        "dimension": 25.773195876288657,
         "children": [
           {
-            "id": "56d2bfb19203d196",
+            "id": "6ecd0fa5cca72ff8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/languages/c++/basis/Lambdas.md"
+                "file": "cs/CompArch/Call Stack && Stack Frames.md"
               }
             },
-            "group": "c17865944999ee01"
+            "group": "399bb3b913109fae"
           }
         ]
       }
@@ -119,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/languages/c++/basis/Lambdas.md",
+                "file": "cs/CompArch/Call Stack && Stack Frames.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/languages/c++/basis/Lambdas.md",
+                "file": "cs/CompArch/Call Stack && Stack Frames.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/languages/c++/basis/Lambdas.md"
+                "file": "cs/CompArch/Call Stack && Stack Frames.md"
               }
             }
           }
@@ -182,34 +194,39 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "56d2bfb19203d196",
+  "active": "474b13ed5f8ee9d1",
   "lastOpenFiles": [
+    "cs/pictures/Stack frame structure.png",
+    "cs/CompArch/Virtual memory (VM).md",
+    "cs/CompArch/Call Stack && Stack Frames.md",
+    "cs/Compiler fundamentals/symbol table.md",
+    "cs/CompArch/System bus.md",
+    "cs/CompArch/Registers.md",
+    "cs/CompArch/How transistors run code?.md",
+    "cs/CompArch/OS/Linux virtual memory system.md",
+    "cs/Compiler fundamentals/phases/2. Lexical Analysis and Parsing.md",
+    "cs/Compiler fundamentals/phases/3. Syntax analysis.md",
+    "cs/Compiler fundamentals/phases/4. Semantic analysis.md",
+    "cs/Compiler fundamentals/phases/5. Code generation.md",
+    "cs/Compiler fundamentals/phases/Semantic analysis.md",
+    "cs/Compiler fundamentals/phases/compilation pipeline.md",
+    "cs/Compiler fundamentals/phases/6. Optimizations.md",
+    "cs/Compiler fundamentals/Regular expressions.md",
+    "cs/Compiler fundamentals/static && dynamic linking.md",
+    "cs/Compiler fundamentals/Name mangling.md",
+    "cs/CompArch/what is CPU?.md",
+    "cs/languages/rust/basis/Dynamically sized types.md",
+    "cs/languages/rust/basis/Crates && Packages.md",
+    "cs/languages/rust/basis/Copy && Clone.md",
+    "cs/languages/rust/basis/closure types.md",
+    "cs/languages/rust/basis/borrow checker.md",
+    "cs/languages/c++/basis/Modules.md",
     "cs/languages/c++/basis/Allocators.md",
     "cs/cryptography/fundamentals",
     "cs/cryptography",
     "math/formal languages",
-    "cs/languages/c++/basis/Concepts.md",
-    "cs/languages/c++/basis/auto & decltype.md",
-    "cs/languages/c++/basis/CRTP.md",
-    "cs/languages/c++/basis/functional objects.md",
-    "cs/languages/c++/basis/Lambdas.md",
-    "cs/languages/c++/basis/Modules.md",
-    "cs/languages/c++/basis/references.md",
-    "cs/languages/c++/basis/Templates.md",
-    "cs/languages/rust/basis/Option<T> &&  Result<T> enums.md",
     "math/Linear Algebra/linalg_master.tex",
     "math/Linear Algebra",
-    "cs/Compiler fundamentals/static && dynamic linking.md",
-    "cs/Compiler fundamentals/Name mangling.md",
-    "cs/Compiler fundamentals/Regular expressions.md",
-    "cs/Compiler fundamentals/symbol table.md",
-    "cs/Compiler fundamentals/phases/3. Syntax analysis.md",
-    "cs/Compiler fundamentals/phases/4. Semantic analysis.md",
-    "cs/Compiler fundamentals/phases/2. Lexical Analysis and Parsing.md",
-    "cs/Compiler fundamentals/phases/6. Optimizations.md",
-    "cs/Compiler fundamentals/phases/5. Code generation.md",
-    "cs/Compiler fundamentals/phases/compilation pipeline.md",
-    "cs/Compiler fundamentals/phases/1. Preprocessing.md",
     "cs/pictures/Diagram2.png",
     "cs/pictures/Diagram2.svg",
     "cs/pictures/Diagram2.svg.xml",
@@ -218,16 +235,11 @@
     "cs/pictures/syntactic analysis.png",
     "cs/pictures/semantic analysis.png",
     "cs/pictures/compilation_pipeline.png",
-    "cs/languages/c++/basis/move semantics/Move semantics.md",
-    "cs/CompArch/Virtual memory (VM).md",
-    "cs/languages/c++/basis/move semantics/Value categories.md",
     "cs/languages/c++/basis/move semantics/value-category-cheatsheet.pdf",
-    "cs/languages/rust/basis/borrow checker.md",
     "cs/pictures/vtable inside 1.png",
     "cs/pictures/vtable inside.png",
     "cs/pictures/vt.png",
     "cs/pictures",
-    "cs/CompArch/OS/Linux virtual memory system.md",
     "cs/CompArch/OS/kernel",
     "cs/Compiler fundamentals"
   ]
