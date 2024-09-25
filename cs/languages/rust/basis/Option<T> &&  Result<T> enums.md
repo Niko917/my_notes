@@ -11,8 +11,6 @@ None,
 
 - ### cases:
   
-	- pattern matching 
-  
   ```Rust
 fn divide(numerator: f64, denominator: f64) -> Option<f64> {
     if denominator == 0.0 {
@@ -36,8 +34,6 @@ fn divide(numerator: f64, denominator: f64) -> Option<f64> {
   
   
 	
-	- "Null" pointers
-
 так как в языке Rust из-за контроля безопасности не существует null-pointers => указатель в Rust всегда должен указывать на действительную область памяти.
 
 Несмотря на это, в языке Rust есть <mark style="background: #FF5582A6;">optional pointer</mark> . 
