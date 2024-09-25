@@ -6,7 +6,6 @@
       {
         "id": "7f1e1a1d00df382f",
         "type": "tabs",
-        "dimension": 74.22680412371135,
         "children": [
           {
             "id": "b0e9cd8ad411e4ad",
@@ -21,50 +20,43 @@
             }
           },
           {
-            "id": "c65bb1032f3b9a28",
+            "id": "474b13ed5f8ee9d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/CompArch/what is CPU?.md",
+                "file": "cs/languages/rust/basis/closure types.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "474b13ed5f8ee9d1",
+            "id": "4d036ca3f07427a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/CompArch/Call Stack && Stack Frames.md",
+                "file": "cs/Concurrency/What is concurrency?.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "399bb3b913109fae"
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "14e83ae99759f4f5",
-        "type": "tabs",
-        "dimension": 25.773195876288657,
-        "children": [
+            }
+          },
           {
-            "id": "6ecd0fa5cca72ff8",
+            "id": "39d34cb03dfee914",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "markdown",
               "state": {
-                "file": "cs/CompArch/Call Stack && Stack Frames.md"
+                "file": "cs/languages/rust/basis/Traits.md",
+                "mode": "source",
+                "source": false
               }
-            },
-            "group": "399bb3b913109fae"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "477540a5ef11ae72",
@@ -131,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/CompArch/Call Stack && Stack Frames.md",
+                "file": "cs/languages/rust/basis/Traits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/CompArch/Call Stack && Stack Frames.md",
+                "file": "cs/languages/rust/basis/Traits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/CompArch/Call Stack && Stack Frames.md"
+                "file": "cs/languages/rust/basis/Traits.md"
               }
             }
           }
@@ -194,11 +185,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "474b13ed5f8ee9d1",
+  "active": "39d34cb03dfee914",
   "lastOpenFiles": [
+    "cs/languages/rust/basis/Static && Dynamic dispatch && vtables.md",
+    "cs/languages/rust/basis/Smart pointers.md",
+    "cs/languages/rust/basis/Self && self.md",
+    "cs/languages/rust/basis/Option<T> &&  Result<T> enums.md",
+    "cs/CompArch/Call Stack && Stack Frames.md",
+    "cs/Concurrency/Threads.md",
+    "cs/Concurrency/What is concurrency?.md",
+    "cs/pictures/concurrent thread execution.png",
+    "cs/languages/rust/basis/closure types.md",
+    "cs/Concurrency",
+    "cs/languages/c++/basis/Modules.md",
+    "cs/languages/rust/async",
     "cs/pictures/Stack frame structure.png",
     "cs/CompArch/Virtual memory (VM).md",
-    "cs/CompArch/Call Stack && Stack Frames.md",
     "cs/Compiler fundamentals/symbol table.md",
     "cs/CompArch/System bus.md",
     "cs/CompArch/Registers.md",
@@ -215,13 +217,6 @@
     "cs/Compiler fundamentals/static && dynamic linking.md",
     "cs/Compiler fundamentals/Name mangling.md",
     "cs/CompArch/what is CPU?.md",
-    "cs/languages/rust/basis/Dynamically sized types.md",
-    "cs/languages/rust/basis/Crates && Packages.md",
-    "cs/languages/rust/basis/Copy && Clone.md",
-    "cs/languages/rust/basis/closure types.md",
-    "cs/languages/rust/basis/borrow checker.md",
-    "cs/languages/c++/basis/Modules.md",
-    "cs/languages/c++/basis/Allocators.md",
     "cs/cryptography/fundamentals",
     "cs/cryptography",
     "math/formal languages",
@@ -237,10 +232,6 @@
     "cs/pictures/compilation_pipeline.png",
     "cs/languages/c++/basis/move semantics/value-category-cheatsheet.pdf",
     "cs/pictures/vtable inside 1.png",
-    "cs/pictures/vtable inside.png",
-    "cs/pictures/vt.png",
-    "cs/pictures",
-    "cs/CompArch/OS/kernel",
-    "cs/Compiler fundamentals"
+    "cs/pictures"
   ]
 }

@@ -49,15 +49,15 @@ fn main() {
 
 ---
 
-### [Представление trait-объекта в памяти: ](https://alexeden.github.io/learning-rust/programming_rust/11_traits_and_generics.html#:~:text=In%20memory%2C%20a%20trait%20object,called%20a%20virtual%20table%20(vtable))
+### [Trait object layout](https://alexeden.github.io/learning-rust/programming_rust/11_traits_and_generics.html#:~:text=In%20memory%2C%20a%20trait%20object,called%20a%20virtual%20table%20(vtable))
 
 
-- Trait object представлен в виде двух указателей 
+- `Trait object` представлен в виде двух указателей 
   (wide pointer):
 
-	- data pointer. указатель на данные объекта, реализующего trait
+	- `data pointer`. указатель на данные объекта, реализующего trait
 		
-	- указатель на vtable (vptr), которая содержит указатели на реализации методов для конкретного типа, реализующего данный trait
+	- указатель на `vtable (vptr)`, которая содержит указатели на реализации методов для конкретного типа, реализующего данный trait
 	
 ``` Rust
 pub struct TraitObject {
@@ -66,21 +66,18 @@ pub struct TraitObject {
 }
 ```
 
-![trait object layout|400](pics/trait_object_layout.png)
-
 ---
 
 ## Vtables
 
-
-Vtable (Virtual Method Table) — это структура данных, используемая в языках программирования для поддержки полиморфизма и динамической диспетчеризации. 
+`Vtable` (Virtual Method Table) — это структура данных, используемая в языках программирования для поддержки полиморфизма и динамической диспетчеризации. 
 
 
 Vtable состоит из:
 - указателей на реализации методов для конкретного типа
 - `Drop::drop`, `drop glue`
 - [size, alignment](https://stackoverflow.com/questions/52011247/why-do-trait-object-vtables-contain-size-and-alignment)
-- other general trait methods (copy(), clone(), ...)
+- ссылок на остальные основноые методы `(copy(), clone(), ...)`
 
 Это позволяет вызывать методы во время выполнения программы, основываясь на типе объекта.
 

@@ -24,7 +24,9 @@
 - Аргументы функции
 - Локальные переменные
 - Сохранённые значения регистров
-![Stack frame structure|400](https://github.com/user-attachments/assets/c9013848-6cc1-4f2c-bd23-c8f5cf79999e)
+
+
+![Stack frame structure|330](https://github.com/user-attachments/assets/c9013848-6cc1-4f2c-bd23-c8f5cf79999e)
 
 В архитектуре `x86` аргументы функции и локальные переменные этой функции распологаются относительно базового адреса данного фрейма.
 
