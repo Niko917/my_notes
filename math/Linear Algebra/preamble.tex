@@ -31,6 +31,10 @@
 \usepackage{amsthm}
 \usepackage{shadethm}
 \usepackage{framed}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows.meta, positioning}
+
 
 \newcommand*\mnote[1]{\marginnote{#1}}
 
@@ -48,6 +52,8 @@
 \newcommand\Z{\ensuremath{\mathbb{Z}}}
 \renewcommand\O{\ensuremath{\varnothing}}
 \newcommand\Q{\ensuremath{\mathbb{Q}}}
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\E'}{\mathcal{E'}}
 
 \DeclareMathOperator{\End}{End}
 \DeclareMathOperator{\dom}{dom}
@@ -167,6 +173,9 @@
 
 \newcommand{\norm}[1]{\|#1\|}
 \newcommand{\inner}[2]{\langle #1, #2 \rangle}
+\newcommand{\nl}{\newline}
+\newcommand{\lra}{\Longrightarrow}
+\newcommand{\tt}{\text}
 
 % Оформление фреймов
 \newenvironment{shth}
