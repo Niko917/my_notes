@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/Concurrency/Threads.md",
+                "file": "math/Graph Theory/10. Паросочетания и Инварианты.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/Concurrency/Threads.md",
+                "file": "math/Graph Theory/10. Паросочетания и Инварианты.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/Concurrency/Threads.md",
+                "file": "math/Graph Theory/10. Паросочетания и Инварианты.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/Concurrency/Threads.md"
+                "file": "math/Graph Theory/10. Паросочетания и Инварианты.md"
               }
             }
           }
@@ -150,6 +150,12 @@
   },
   "active": "faa358f58ef7b71d",
   "lastOpenFiles": [
+    "math/Graph Theory/4. Маршруты, цепи и циклы.md",
+    "math/Graph Theory/3. Рёберный граф.md",
+    "math/Graph Theory/2. Локальная структура графов.md",
+    "math/Graph Theory/1. Основные определения.md",
+    "math/Graph Theory/12. Гомеоморфизм графа, Укладка графа.md",
+    "cs/Concurrency/Threads.md",
     "math/Group Theory/2. Изоморфизм и Гомоморфизм.md",
     "math/Group Theory/1. Групповая операция.md",
     "cs/CompArch/Control flow.md",
@@ -157,7 +163,6 @@
     "cs/CompArch/How transistors run code?.md",
     "cs/CompArch/Virtual memory (VM).md",
     "cs/CompArch/System bus.md",
-    "cs/Concurrency/Threads.md",
     "cs/Concurrency/What is concurrency?.md",
     "cs/pictures/trap handling.png",
     "cs/CompArch/OS/Scheduling.md",
@@ -178,11 +183,6 @@
     "cs/pictures/Stack frame structure.png",
     "cs/Compiler fundamentals/symbol table.md",
     "cs/CompArch/Registers.md",
-    "cs/Compiler fundamentals/phases/2. Lexical Analysis and Parsing.md",
-    "cs/Compiler fundamentals/phases/3. Syntax analysis.md",
-    "cs/Compiler fundamentals/phases/4. Semantic analysis.md",
-    "cs/Compiler fundamentals/phases/5. Code generation.md",
-    "cs/Compiler fundamentals/phases/Semantic analysis.md",
     "cs/cryptography/fundamentals",
     "cs/cryptography",
     "math/formal languages",

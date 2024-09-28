@@ -57,6 +57,7 @@ visible
 val
 valid
 variables
+vertices
 encoding
 eT
 eeU
@@ -103,6 +104,7 @@ error
 export
 execution
 event
+edge
 UTF
 Unallocated
 Uncached
@@ -764,6 +766,7 @@ generic
 glue
 grow
 generics
+graph
 root
 rrrp
 rd
@@ -1065,6 +1068,7 @@ add
 any
 algorithms
 aborts
+arc
 translation
 tables
 table
@@ -1236,6 +1240,7 @@ Application
 Associated
 Arc
 Aborts
+ABF
 KB
 Kn
 KH
@@ -1295,6 +1300,7 @@ font
 family
 fcb
 flow
+finite
 IHDR
 IDATx
 III
@@ -1625,6 +1631,7 @@ denominator
 dca
 division
 destination
+directed
 YA
 YYY
 Yz
