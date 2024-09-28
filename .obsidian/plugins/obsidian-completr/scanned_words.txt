@@ -102,6 +102,7 @@ events
 error
 export
 execution
+event
 UTF
 Unallocated
 Uncached
@@ -441,6 +442,9 @@ Err
 Examples
 Error
 Extended
+Exceptional
+ECF
+Exceptions
 width
 wX
 ww
@@ -543,6 +547,7 @@ heap
 hierarchy
 href
 has
+hardware
 content
 ck
 cache
@@ -611,6 +616,8 @@ clause
 convensions
 callee
 caller
+control
+calls
 lt
 lWQ
 lines
@@ -787,6 +794,8 @@ requiredFeatures
 rgb
 result
 retrieve
+returns
+register
 id
 ih
 iS
@@ -994,6 +1003,7 @@ Class
 Caller
 Callee
 Concurrency
+Classes
 adress
 aaHO
 aC
@@ -1097,6 +1107,7 @@ text
 target
 txt
 thread
+tranfer
 unit
 uk
 ulm
@@ -1272,6 +1283,7 @@ flex
 font
 family
 fcb
+flow
 IHDR
 IDATx
 III
@@ -1647,6 +1659,7 @@ je
 jx
 jq
 justify
+jumps
 NMd
 Ng
 Nn
