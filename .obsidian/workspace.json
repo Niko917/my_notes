@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/CompArch/Control flow.md",
+                "file": "cs/Concurrency/Threads.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "477540a5ef11ae72",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/CompArch/Control flow.md",
+                "file": "cs/Concurrency/Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/CompArch/Control flow.md",
+                "file": "cs/Concurrency/Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/CompArch/Control flow.md"
+                "file": "cs/Concurrency/Threads.md"
               }
             }
           }
@@ -151,12 +150,18 @@
   },
   "active": "faa358f58ef7b71d",
   "lastOpenFiles": [
+    "math/Group Theory/2. Изоморфизм и Гомоморфизм.md",
+    "math/Group Theory/1. Групповая операция.md",
+    "cs/CompArch/Control flow.md",
+    "cs/CompArch/what is CPU?.md",
+    "cs/CompArch/How transistors run code?.md",
+    "cs/CompArch/Virtual memory (VM).md",
+    "cs/CompArch/System bus.md",
+    "cs/Concurrency/Threads.md",
+    "cs/Concurrency/What is concurrency?.md",
     "cs/pictures/trap handling.png",
     "cs/CompArch/OS/Scheduling.md",
-    "cs/CompArch/Control flow.md",
     "cs/pictures/exception table.png",
-    "cs/Concurrency/What is concurrency?.md",
-    "cs/Concurrency/Threads.md",
     "cs/pictures/anatomy of an exception.png",
     "cs/CompArch/OS/Linux virtual memory system.md",
     "cs/languages/rust/basis/Option<T> &&  Result<T> enums.md",
@@ -171,18 +176,13 @@
     "cs/languages/c++/basis/Modules.md",
     "cs/languages/rust/async",
     "cs/pictures/Stack frame structure.png",
-    "cs/CompArch/Virtual memory (VM).md",
     "cs/Compiler fundamentals/symbol table.md",
-    "cs/CompArch/System bus.md",
     "cs/CompArch/Registers.md",
-    "cs/CompArch/How transistors run code?.md",
     "cs/Compiler fundamentals/phases/2. Lexical Analysis and Parsing.md",
     "cs/Compiler fundamentals/phases/3. Syntax analysis.md",
     "cs/Compiler fundamentals/phases/4. Semantic analysis.md",
     "cs/Compiler fundamentals/phases/5. Code generation.md",
     "cs/Compiler fundamentals/phases/Semantic analysis.md",
-    "cs/Compiler fundamentals/phases/compilation pipeline.md",
-    "cs/Compiler fundamentals/phases/6. Optimizations.md",
     "cs/cryptography/fundamentals",
     "cs/cryptography",
     "math/formal languages",
@@ -194,7 +194,6 @@
     "cs/Compiler fundamentals/phases/Untitled Diagram.svg",
     "cs/pictures/Abstract-syntax-tree-of-a-C-function.png",
     "cs/pictures/syntactic analysis.png",
-    "cs/pictures/semantic analysis.png",
     "cs/languages/c++/basis/move semantics/value-category-cheatsheet.pdf",
     "cs/pictures"
   ]
