@@ -124,7 +124,7 @@ $\mathbb{V}$ - это $E$ или $V$
         если $g_{m} = 0 \lra f_{m} - \beta_{1}f_{1} - \ldots - \beta_{m-1}f_{m-1} = 0$
         \nl 
         
-        Это нетривиальная линейная комбинация равная нулю $\lra$ противоречие, \nl так как $f_{1}, \ldots, f_{m}$ - базис линейной оболочки $\mathcal{L}(f_{1}, \ldost, f_{m})$ 
+        Это нетривиальная линейная комбинация равная нулю $\\lra$ противоречие, \\nl так как $f_{1}, \\ldots, f_{m}$ - базис линейной оболочки $\\mathcal{L}(f_{1}, \\ldots, f_{m})$ 
     \end{enumerate}
 \end{proof}
 
@@ -253,7 +253,7 @@ $\mathbb{V}$ - это $E$ или $V$
         \quad Это означает, что \( T^T T = E \), где \( E \) — единичная матрица. Таким образом, матрица \( T \) ортогональна.
         \nl 
     
-        \item $ T = (t_{ij}), \quad \E' = \E T, \quad \E = \{e_{1}, \ldots, e_{n}}, \; \E' = \{e'_{1}, \ldots, e'_{n}\} $
+        \item $ T = (t_{ij}), \quad \E' = \E T, \quad \E = {e_{1}, \ldots, e_{n}}, \; \E' = \{e'_{1}, \ldots, e'_{n}\} $
         \nl
         
         \quad Для ортонормированного базиса \( \mathcal{E}' \) должно выполняться условие \( \delta_{ij} = \langle e'_i, e'_j \rangle \).
@@ -286,4 +286,82 @@ $\mathbb{V}$ - это $E$ или $V$
         \quad Это означает, что \( T^* T = E \), где \( E \) — единичная матрица. Таким образом, матрица \( T \) унитарная.
     \end{enumerate}
 
+\end{proof}
+
+\clearpage
+
+\section{Ортогональное дополнение подпространств}
+
+$\mathcal{V}$ - это $E$ или $V, \quad V_{1}, V_{2} \subseteq \mathcal{V}$ - подпространства.
+        
+\begin{shdef}
+    \begin{definition}
+    \leavevmode \\
+
+        Ортогональное дополнение подпространства. 
+        
+        $V_{1} \bot V_{2}$, если $\forall x \in V_{1}, \forall y \in V_{2} \; \inner{x}{y} = 0$
+    \end{definition}
+\end{shdef}
+
+\begin{shth}
+    \begin{theorem}
+        $V_{1} \bot V_{2} \lra V_{1} \cap V_{2} = \{0\}$
+    \end{theorem}
+\end{shth}
+
+\begin{proof}
+    \leavevmode \nl
+    
+    пусть $z \in V_{1} \cap V_{2} \; z \in V_{1}, z \in V_{2}, \; \inner{z}{z} = 0 \quad \lra z = 0$
+\end{proof}
+
+\begin{shdef}
+    \begin{definition}
+        $V_{1} \subseteq \mathcal{V} \Longrightarrow \mathcal{V_{1}} = \{ z \in \mathcal{V}: \inner{y}{z} = 0 \; \forall y \in \mathcal{V_{1}} \}$
+    \end{definition}
+\end{shdef}
+
+\begin{shth}
+    \begin{theorem}
+        $\mathcal{V_{1}}^\bot$ - подпространство
+    \end{theorem}
+\end{shth}
+
+\begin{proof}
+    \begin{enumerate}
+        \item $\mathds{O} \in \mathcal{V_{1}}^\bot \lra \mathcal{V_{1}}^\bot \neq \mathds{0}$
+        \item $z_{1}, z_{2} \in \mathcal{V_{1}}^\bot \quad x = \alpha z_{1} + \beta z_{2}$ \\ 
+        $\forall y \in \mathcal{V_{1}} \; \inner{y}{x} = \inner{y}{\alpha z_{1} + \beta z_{2}} = \overline{\alpha} \inner{y}{z_{1}} + \overline{\beta} \inner{y}{z_{2}} = 0$
+    \end{enumerate}
+\end{proof}
+
+\begin{shth}
+    \begin{theorem}
+        \[\mathcal{V_{1}}, \mathcal{V_{1}}^\bot : \mathcal{E_{1}} = \{e_{1}, \ldots, e_{n}\} - \text{ОНБ в} \mathcal{V_{1}} \\ \text{Тогда} z \in \mathcal{V_{1}}^{\bot} \Leftrightarrow \inner{z}{e_{1}} = \ldots = \inner{z}{e_{k}} = 0\]
+    \end{theorem}
+\end{shth}
+
+\begin{proof}
+    \begin{itemize}
+        \item \[\lra \text{из определения} \]
+        \item \[\lla \inner{z}{e_{1}} = \ldots = \inner{z}{e_{k}} = 0 \\ \forall y \in \mathcal{V_{1}}, y = \alpha_{1} e_{1} + \ldots + \alpha_{k} e_{k} \\ \inner{z}{y} = \inner{z}{\alpha_{1} e_{1} + \ldots + \alpha_{k} e_{k}}  =  \overline{\alpha_{1}} \inner{z}{e_{1}} + \ldots + \overline{\alpha_{k}} \inner{z}{e_{k}} = 0\]
+    \end{itemize}
+\end{proof}
+
+\begin{shth}
+    \begin{theorem}
+        \[\mathcal{V_{1}} \subseteq \mathcal{V}, \text{где} \mathcal{V} - V \text{или} E  \\ Тогда \mathcal{V} = \mathcal{V_{1}} \oplus \mathcal{V_{1}}^{\bot} \]
+    \end{theorem}
+\end{shth}
+
+\begin{proof}
+    \begin{enumerate}
+        \item \[ \text{Докажем, что можем разложить в сумму} (x = y + z), x \in \mathcal{V}, y \in \mathcal{V_{1}}, z \in \mathcal{V_{1}}^{\bot} \\ 
+        \mathcal{E} = \{e_{1}, \ldots, e_{k}\} - \text{ОНБ в } \mathcal{V_{1}}\} \\ 
+        
+        x \in \mathcal{V}, \quad y = \inner{x}{e_{1}}e_{1} + \ldots + \inner{x}{e_{k}}e_{k} \in \mathcal{V_{1}} \\ 
+        
+        z = x - y \Leftrightarrow x = y + z, y \in \mathcal{V_{1}}. \text{Проверим, что} z \in \mathcal{V_{1}}^{\bot}. \]
+    \end{enumerate}
 \end{proof}

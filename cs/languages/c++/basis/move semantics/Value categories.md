@@ -11,17 +11,13 @@
 
 Любое выражение определённо принадлежит к одной из трёх основных категорий, которые являются подмножествами более общий категорий `gvalue` и `rvalue`.
 
-<<<<<<< HEAD
 
-
-![[pics/Diagram.svg]]
-=======
 $\space$
 
 ![Diagram](https://github.com/user-attachments/assets/bb544865-4f6c-45ae-a898-995d9a86d524)
 
 <img src=https://github.com/user-attachments/assets/9c2100ec-8aae-45de-879e-e81a7f64d2c9 alt=lvalues-rvalues width=500>
->>>>>>> 3dca7a106221c5b0c6a91c0e3a23d15657c66fcb
+
 
 
 ---
@@ -37,6 +33,7 @@ $\space$
 Примерами `prvalue` являются:
 
 - Литералы (за исключением строковых)
+
 ``` cpp
 42; // prvalue
 true; // prvalue
@@ -45,6 +42,7 @@ nullptr; // prvalue
 
 
 - вызовы функций, возвращающие нессылочные типы
+
 ``` cpp
 int foo();
 foo(); // prvalue
@@ -58,6 +56,7 @@ a++, a && b, a % b, a == b, !a, a>= b;
 
 
 - адреса любых `lvalue` выражений всегда являются `prvalue`
+
 ``` cpp
 int a{}; // lvalue
 &a; // prvalue
@@ -65,6 +64,7 @@ int a{}; // lvalue
 
 
 - Анонимные функции, независимо от их захвата, являются `prvalue`.
+
 ``` cpp
 auto lambda = [](int x) -> int { return x + 1; };
 // [](int x) -> int { return x + 1; }; is prvalue
@@ -72,6 +72,7 @@ auto lambda = [](int x) -> int { return x + 1; };
 
 
 - Аргументы функций, которые неявно преобразуются
+
 ``` cpp
 void printString(const std::string& str) {
     std::cout << str << std::endl;
@@ -83,11 +84,13 @@ printString("Hello, World!");
 
 
 - Выражение `requires`
+
 ``` cpp
 requires (T i) { typename T::type; }; // prvalue
 ```
 
 - Специализация концепта
+
 ``` cpp
 std::equality_compatible<int>; // prvalue
 ```
@@ -104,6 +107,7 @@ std::equality_compatible<int>; // prvalue
 Примерами `lvalue` являются:
 
 - любые идентификаторы объектов, шаблонные параметры
+
 ``` cpp
 int a; // 'a' is lvalue
 int arr[10] // arr[10] is lvalue
@@ -118,12 +122,14 @@ int& func(); // func() is a lvalue
 
 
 - строковые литералы
+
 ``` cpp
 "Meow!" // lvalue
 ```
 
 
 - использование префиксных операторов
+
 ``` cpp
 ++a; // lvalue
 --a; // also lvalue
@@ -131,6 +137,7 @@ int& func(); // func() is a lvalue
 
 
 - любые ссылки на функции являются `lvalue`
+
 ``` cpp
 void myFunction(int x) {
     std::cout << "x = " << x << std::endl;
@@ -166,6 +173,7 @@ static_cast<bool&&>(b); // xvalue
 
 
 - обращение к любому нестатическому полю, относящемуся к `rvalue`, является `xvalue`. (member of object expression)
+
 ``` cpp
 struct foo {
 	int a;
